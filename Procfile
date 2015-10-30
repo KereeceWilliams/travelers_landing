@@ -1,0 +1,1 @@
+web: gunicorn travelers_landing.wsgi --log-file -
