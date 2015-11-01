@@ -1,11 +1,18 @@
 {% extends "base.html" %}
+{% load staticfiles %}
 {% block content %}
 <div class="jumbotron">
-<div class="jumbo">
+  <div class="jumbo">
   <h1>Travelers Claim Center</h1>
-  <br>
   <p>The knowledge based site for customers wanting to know about the use of drone technology in the claim center.</p>
   <a href="{% url 'question_create' %}" class="btn-lg bth-primary">Submit question</a>
 </div>
+</div>
+<div class="container">
+  <img src=../static/image/drone2.jpe style=float:left height=250px width=400 />
+  <h2> What is Drone Technology? </h2>
+  <br>
+  <p> Drones are used in situations where manned flight is considered too risky or difficult. They provide troops with a 24-hour "eye in the sky", seven days a week. Each aircraft can stay aloft for up to 17 hours at a time, loitering over an area and sending back real-time imagery of activities on the ground. </p>
+  <p> The insurance market has now made a way in the market for Drone technology. </p>
 </div>
 {% endblock %}

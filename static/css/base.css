@@ -3,14 +3,50 @@ body {
 }
 
 .jumbo {
-  background-color: #2D2D2D;
+  background-color: #717173;
 }
 
 .jumbo h1{
   text-align: center;
   color: #ffffff;
+  margin:0px;
 }
 
 .jumbo p{
   color: #ffffff;
+  clear:both;
+}
+
+.jumbovid iframe{
+  padding-bottom: 20px;
+}
+
+.jumbovid h1{
+  text-align: center;
+  color:#ffffff;
+}
+
+.jumbovid p{
+  color: #ffffff;
+}
+
+.navbar-default {
+  background-color: #cc2d30;
+}
+
+.navbar-inner {
+  color: #ffffff;
+}
+
+.container img{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.container h2{
+  color: #cc2d30;
+}
+
+.jumboq {
+  column-count: 2;
 }
