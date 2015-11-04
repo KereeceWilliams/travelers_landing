@@ -5,24 +5,51 @@
 
 <!-- Form Name -->
 <h1>Drone Survey</h1>
+<p> We have provided a short assessment to gauge the satisfaction of our customers. We ask that you carefully read the questions before answering. The answers are scaled with "1" being very dissatisfied and "4" being very satisfied. When you have finished the survey click "Submit". </p>
 
-<!-- Prepended checkbox -->
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Multiple Checkboxes -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="prependedcheckbox">Choose the best answer</label>
+  <label class="col-md-4 control-label" for="checkboxes">Have you used our drone service? </label>
   <div class="col-md-4">
-    <div class="input-group">
-      <span class="input-group-addon">
-          <input type="checkbox">
-      </span>
-      <input id="prependedcheckbox" name="prependedcheckbox" class="form-control" type="text" placeholder="placeholder">
-    </div>
-    <p class="help-block">help</p>
+  <div class="checkbox">
+    <label for="checkboxes-0">
+      <input type="checkbox" name="checkboxes" id="checkboxes-0" value="1">
+      Yes
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="checkboxes-1">
+      <input type="checkbox" name="checkboxes" id="checkboxes-1" value="2">
+      No
+    </label>
+	</div>
   </div>
 </div>
 
+<!-- Multiple Checkboxes -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="checkboxes">Have you ever filed a claim for property damage?</label>
+  <div class="col-md-4">
+  <div class="checkbox">
+    <label for="checkboxes-0">
+      <input type="checkbox" name="checkboxes" id="checkboxes-0" value="1">
+      Yes
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="checkboxes-1">
+      <input type="checkbox" name="checkboxes" id="checkboxes-1" value="2">
+      No
+    </label>
+	</div>
+  </div>
+</div>
 <!-- Multiple Radios (inline) -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="radios">Inline Radios</label>
+  <label class="col-md-4 control-label" for="radios">How satisfied are you with Travelers?</label>
   <div class="col-md-4">
     <label class="radio-inline" for="radios-0">
       <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
@@ -45,7 +72,7 @@
 
 <!-- Multiple Radios (inline) -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="radios">Inline Radios</label>
+  <label class="col-md-4 control-label" for="radios">How satisfied are you with the drone service?</label>
   <div class="col-md-4">
     <label class="radio-inline" for="radios-0">
       <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
@@ -68,7 +95,7 @@
 
 <!-- Multiple Radios (inline) -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="radios">Inline Radios</label>
+  <label class="col-md-4 control-label" for="radios">How satisfied are you with the cost?</label>
   <div class="col-md-4">
     <label class="radio-inline" for="radios-0">
       <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
@@ -89,98 +116,88 @@
   </div>
 </div>
 
-<!-- Prepended checkbox -->
+<!-- Multiple Radios (inline) -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="prependedcheckbox">Prepended Checkbox</label>
+  <label class="col-md-4 control-label" for="radios">How have the drones made your process easier?</label>
   <div class="col-md-4">
-    <div class="input-group">
-      <span class="input-group-addon">
-          <input type="checkbox">
-      </span>
-      <input id="prependedcheckbox" name="prependedcheckbox" class="form-control" type="text" placeholder="placeholder">
-    </div>
-    <p class="help-block">help</p>
+    <label class="radio-inline" for="radios-0">
+      <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
+      1
+    </label>
+    <label class="radio-inline" for="radios-1">
+      <input type="radio" name="radios" id="radios-1" value="2">
+      2
+    </label>
+    <label class="radio-inline" for="radios-2">
+      <input type="radio" name="radios" id="radios-2" value="3">
+      3
+    </label>
+    <label class="radio-inline" for="radios-3">
+      <input type="radio" name="radios" id="radios-3" value="4">
+      4
+    </label>
   </div>
 </div>
 
-<!-- Button Drop Down -->
+<!-- Multiple Radios (inline) -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="buttondropdown">Button Drop Down</label>
+  <label class="col-md-4 control-label" for="radios">How satisfied are you with interacting less with claims specialist? </label>
   <div class="col-md-4">
-    <div class="input-group">
-      <input id="buttondropdown" name="buttondropdown" class="form-control" placeholder="placeholder" type="text">
-      <div class="input-group-btn">
-        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-          Action
-          <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu pull-right">
-          <li><a href="#">Option one</a></li>
-          <li><a href="#">Option two</a></li>
-          <li><a href="#">Option three</a></li>
-        </ul>
-      </div>
-    </div>
+    <label class="radio-inline" for="radios-0">
+      <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
+      1
+    </label>
+    <label class="radio-inline" for="radios-1">
+      <input type="radio" name="radios" id="radios-1" value="2">
+      2
+    </label>
+    <label class="radio-inline" for="radios-2">
+      <input type="radio" name="radios" id="radios-2" value="3">
+      3
+    </label>
+    <label class="radio-inline" for="radios-3">
+      <input type="radio" name="radios" id="radios-3" value="4">
+      4
+    </label>
   </div>
 </div>
 
-<!-- Button Drop Down -->
+
+
+
+<!-- Multiple Radios (inline) -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="buttondropdown">Button Drop Down</label>
+  <label class="col-md-4 control-label" for="radios">How satisfied were you with the restoration process?</label>
   <div class="col-md-4">
-    <div class="input-group">
-      <input id="buttondropdown" name="buttondropdown" class="form-control" placeholder="placeholder" type="text">
-      <div class="input-group-btn">
-        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-          Action
-          <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu pull-right">
-          <li><a href="#">Option one</a></li>
-          <li><a href="#">Option two</a></li>
-          <li><a href="#">Option three</a></li>
-        </ul>
-      </div>
-    </div>
+    <label class="radio-inline" for="radios-0">
+      <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
+      1
+    </label>
+    <label class="radio-inline" for="radios-1">
+      <input type="radio" name="radios" id="radios-1" value="2">
+      2
+    </label>
+    <label class="radio-inline" for="radios-2">
+      <input type="radio" name="radios" id="radios-2" value="3">
+      3
+    </label>
+    <label class="radio-inline" for="radios-3">
+      <input type="radio" name="radios" id="radios-3" value="4">
+      4
+    </label>
   </div>
 </div>
 
 <!-- Textarea -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="textarea">Text Area</label>
-  <div class="col-md-4">
-    <textarea class="form-control" id="textarea" name="textarea">default text</textarea>
-  </div>
-</div>
-
-<!-- Button Drop Down -->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="buttondropdown">Button Drop Down</label>
-  <div class="col-md-4">
-    <div class="input-group">
-      <input id="buttondropdown" name="buttondropdown" class="form-control" placeholder="placeholder" type="text">
-      <div class="input-group-btn">
-        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-          Action
-          <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu pull-right">
-          <li><a href="#">Option one</a></li>
-          <li><a href="#">Option two</a></li>
-          <li><a href="#">Option three</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Textarea -->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="textarea">Text Area</label>
+  <label class="col-md-4 control-label" for="textarea">Explain any other benefits from the drone technology. </label>
   <div class="col-md-4">
     <textarea class="form-control" id="textarea" name="textarea">default text</textarea>
   </div>
 </div>
 
 </fieldset>
+</form>
+<button type="submit" class="btn btn-primary">Submit</button>
+
 {% endblock %}

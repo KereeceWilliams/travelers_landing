@@ -43,10 +43,19 @@ body {
   padding-right: 40px;
 }
 
+.container p{
+  padding-right: 60px;
+}
+
 .container h2{
   color: #cc2d30;
 }
 
 .jumboq {
   column-count: 2;
+}
+
+.jumbofaq li{
+  color:  #cc2d30;
+  text-decoration: underline;
 }
